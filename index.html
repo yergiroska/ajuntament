@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/styles/estilo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/styles/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="Shortcut Icon" type="image/ico" href="https://www.barcelona.cat/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Ayuntamiento de Barcelona</title>
+</head>
+<body>
+<div id="container">
+    <header id="header">
+        <nav class="menu-arriba">
+            <div class="bcn-cat">
+                <a href="https://www.barcelona.cat/es/" class="bcnbrand-main-link" title="Barcelona" data-ga="barcelona.cat">
+                    www.barcelona.cat
+                </a>
+            </div>
+            <div class="logo">
+                <img src="assets/images/logo.svg" alt="Logo" title="Logo" />
+            </div>
+        </nav>
+        <nav class="menu">
+            <h1>
+                <a href="/infobarcelona/es/" title="Inicio">
+                    <span>Info</span> Barcelona
+                </a>
+            </h1>
+            <div class="redes-sociales">
+                <ul>
+                    <li><a href="https://twitter.com/bcn_ajuntament" target="_blank" title="Abrir en una nueva ventana"><i class="fa fa-times" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/barcelona.cat/" target="_blank" title="Abrir en una nueva ventana"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/bcnajuntament" target="_blank" title="Abrir en una nueva ventana"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/barcelona_cat/" target="_blank" title="Abrir en una nueva ventana"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="menu3" id="menu3">
+        <ul class="nav-horizontal">
+            <li style="margin-top: 10px"><img src="assets/images/tag.svg" class="icono-tag"></li>
+            <li class="menu-text"><a href="#">Transformaciones Urbanas</a></li>
+            <li class="menu-text"><a href="#">Vivienda</a></li>
+            <li class="menu-text"><a href="#">Información de Servicio</a></li>
+            <li class="menu-text"><a href="#">Empleo y Trabajo</a></li>
+            <li class="menu-text"><a href="#">Cultura y tiempo libre</a></li>
+            <li class="menu-text" id="more-menu" aria-label="Desplegar més etiquetes">
+                <a href="#">Más<i class="fa fa-angle-down" aria-hidden="true" id="icon-arrow"></i></i></a>
+                <!--<ul class="submenu col-xs-8 col-md-offset-1">
+                    <li><a href="/infobarcelona/es/tema/ayuntamiento">Ayuntamiento</a></li>
+                    <li><a href="/infobarcelona/es/tema/medio-ambiente-y-sostenibilidad">Medio ambiente y sostenibilidad</a></li>
+                    <li><a href="/infobarcelona/es/tema/sanidad-y-salud">Sanidad y salud</a></li>
+                    <li><a href="/infobarcelona/es/tema/feminismos-mujer">Feminismos-mujer</a></li>
+                    <li><a href="/infobarcelona/es/tema/movilidad-y-transportes">Movilidad y transportes</a></li>
+                    <li><a href="/infobarcelona/es/tema/urbanismo-e-infraestructuras">Urbanismo e infraestructuras</a></li>
+                    <li><a href="/infobarcelona/es/tema/cooperacion">Cooperación</a></li>
+                    <li><a href="/infobarcelona/es/tema/lgtbi">LGTBI</a></li>
+                    <li><a href="/infobarcelona/es/tema/educacion-y-estudios">Educación y estudios</a></li>
+                    <li><a href="/infobarcelona/es/tema/participacion">Participación</a></li>
+                    <li><a href="/infobarcelona/es/tema/memoria-democratica">Memoria Democrática</a></li>
+                    <li><a href="/infobarcelona/es/tema/adolescencia-y-juventud">Adolescencia y juventud</a></li>
+
+                </ul>-->
+            </li>
+        </ul>
+        <div class="search-icon" style="margin-top: 10px">
+            <i class="fa fa-search"></i>
+        </div>
+        <div id="responsive">
+            <span>Menú</span>
+            <input type="checkbox" class="checkbox" id="activo" />
+            <label id="burguer_icon" for="activo" class="burguer_icon"></label>
+            <div id="menu">
+                <div class="menu-item col-xs-4">
+                    <strong>Por área de Gobierno</strong>
+                    <ul>
+                        <li><a href="/infobarcelona/es/area/agenda-2030-transicion-digital-deportes-y-coordinacion-territorial-y-metropolitana">Agenda 2030, Transición Digital, Deportes y Coordinación Territorial y Metropolitana</a></li>
+                        <li><a href="/infobarcelona/es/area/ciclos-de-vida-derechos-sociales-cultura-deportes-coordinacion-territorial">Ciclos de Vida, Derechos Sociales, Cultura, Deportes, Educación, Coordinación Territorial</a></li>
+                        <li><a href="/infobarcelona/es/area/cultura-educacion-ciencia">Cultura, Educación y Ciencia</a></li>
+                        <li><a href="/infobarcelona/es/area/derechos-sociales-feminismos">Derechos Sociales y Feminismos</a></li>
+                        <li><a href="/infobarcelona/es/area/ecologia-urbanismo-infraestructuras-movilidad">Ecología, Urbanismo, Infraestructuras y Movilidad</a></li>
+                        <li><a href="/infobarcelona/es/area/economia-hacienda-promocion-economica">Economía, Hacienda, Promoción Económica</a></li>
+                        <li><a href="/infobarcelona/es/area/economia-trabajo-competitividad-hacienda">Economía, Trabajo, Competitividad y Hacienda</a></li>
+                        <li><a href="/infobarcelona/es/area/prevencion-y-seguridad">Prevención y Seguridad</a></li>
+                        <li><a href="/infobarcelona/es/area/prevencion-seguridad-convivencia-regimen-interior">Prevención, Seguridad, Convivencia, Régimen Interior</a></li>
+                        <li><a href="/infobarcelona/es/area/ecologia-urbanisme-infraestructuras-movilidad-espacio-publico-vivenda">Urbanismo, Transición Ecológica, Servicios Urbanos y Vivienda</a></li>
+                    </ul>
+                </div>
+                <div class="menu-item col-xs-3">
+                    <strong>Por distrito</strong>
+                    <ul><li><a href="/infobarcelona/es/districte/ciutat-vella">Ciutat Vella</a></li>
+                        <li><a href="/infobarcelona/es/districte/eixample">Eixample</a></li>
+                        <li><a href="/infobarcelona/es/districte/sants-montjuic">Sants-Montjuïc</a></li>
+                        <li><a href="/infobarcelona/es/districte/les-corts">Les Corts</a></li>
+                        <li><a href="/infobarcelona/es/districte/sarria-sant-gervasi">Sarrià-Sant Gervasi</a></li>
+                        <li><a href="/infobarcelona/es/districte/gracia">Gràcia</a></li>
+                        <li><a href="/infobarcelona/es/districte/horta-guinardo">Horta-Guinardó</a></li>
+                        <li><a href="/infobarcelona/es/districte/nou-barris">Nou Barris</a></li>
+                        <li><a href="/infobarcelona/es/districte/sant-andreu">Sant Andreu</a></li>
+                        <li><a href="/infobarcelona/es/districte/sant-marti">Sant Martí</a></li>
+                    </ul>
+                </div>
+                <div class="menu-item especial col-xs-5">
+                    <strong>Por tema</strong>
+                    <ul>
+                        <li><a href="/infobarcelona/es/tema/dia-internaiconal-para-la-eliminacion-de-la-violencia-hacia-las-mujeres">25N</a></li>
+                        <li><a href="/infobarcelona/es/tema/8m-dia-de-las-mujeres">8M Día de las Mujeres</a></li>
+                        <li><a href="/infobarcelona/es/tema/adolescencia-y-juventud">Adolescencia y juventud</a></li>
+                        <li><a href="/infobarcelona/es/tema/afectaciones-metro">Afectaciones metro</a></li>
+                        <li><a href="/infobarcelona/es/tema/ayuntamiento">Ayuntamiento</a></li>
+                        <li><a href="/infobarcelona/es/tema/bienestar-animal">Bienestar animal</a></li>
+                        <li><a href="/infobarcelona/es/tema/ciencia">Ciencia</a></li>
+                        <li><a href="/infobarcelona/es/tema/comercio-y-mercados">Comercio y mercados</a></li>
+                        <li><a href="/infobarcelona/es/tema/cooperacion">Cooperación</a></li>
+                        <li><a href="/infobarcelona/es/tema/informacion-sobre-la-gestion-del-covid-19">Covid-19</a></li>
+                        <li><a href="/infobarcelona/es/tema/cultura-y-tiempo-libre">Cultura y tiempo libre</a></li>
+                        <li><a href="/infobarcelona/es/tema/deportes">Deportes</a></li>
+                        <li><a href="/infobarcelona/es/tema/derechos-digitales">Derechos Digitales</a></li>
+                        <li><a href="/infobarcelona/es/tema/educacion-y-estudios">Educación y estudios</a></li>
+                        <li><a href="/infobarcelona/es/tema/elecciones-2023">Elecciones 2023</a></li>
+                        <li><a href="/infobarcelona/es/tema/emergencia-climatica">Emergencia climática</a></li>
+                        <li><a href="/infobarcelona/es/tema/empleo-y-trabajo">Empleo y trabajo</a></li>
+                        <li><a href="/infobarcelona/es/tema/empresa">Empresa</a></li>
+                        <li><a href="/infobarcelona/es/tema/feminismos-mujer">Feminismos-mujer</a></li>
+                        <li><a href="/infobarcelona/es/tema/inclusion">Inclusión</a></li>
+                        <li><a href="/infobarcelona/es/tema/infancia">Infancia</a></li>
+                        <li><a href="/infobarcelona/es/tema/informacion-de-servicio">Información de servicio</a></li>
+                        <li><a href="/infobarcelona/es/tema/la-merce">La Mercè</a></li>
+                        <li><a href="/infobarcelona/es/tema/lgtbi">LGTBI</a></li>
+                        <li><a href="/infobarcelona/es/tema/medio-ambiente-y-sostenibilidad">Medio ambiente y sostenibilidad</a></li>
+                        <li><a href="/infobarcelona/es/tema/memoria-democratica">Memoria Democrática</a></li>
+                        <li><a href="/infobarcelona/es/tema/merce-2019">Mercè 2019</a></li>
+                        <li><a href="/infobarcelona/es/tema/movilidad-y-transportes">Movilidad y transportes</a></li>
+                        <li><a href="/infobarcelona/es/tema/navidad-2022">Navidad 2022</a></li>
+                        <li><a href="/infobarcelona/es/tema/navidad-2023">Navidad 2023</a></li>
+                        <li><a href="/infobarcelona/es/tema/nuevo-mandato">Nuevo mandato</a></li>
+                        <li><a href="/infobarcelona/es/tema/participacion">Participación</a></li>
+                        <li><a href="/infobarcelona/es/tema/personas-mayores">Personas mayores</a></li>
+                        <li><a href="/infobarcelona/es/tema/sanidad-y-salud">Sanidad y salud</a></li>
+                        <li><a href="/infobarcelona/es/tema/sant-jordi">Sant Jordi</a></li>
+                        <li><a href="/infobarcelona/es/tema/seguridad-y-prevencion">Seguridad y prevención</a></li>
+                        <li><a href="/infobarcelona/es/tema/servicios-sociales">Servicios sociales</a></li>
+                        <li><a href="/infobarcelona/es/tema/smart-city">Smart city</a></li>
+                        <li><a href="/infobarcelona/es/tema/transformaciones-urbanas">Transformaciones urbanas</a></li>
+                        <li><a href="/infobarcelona/es/tema/turismo">Turismo</a></li>
+                        <li><a href="/infobarcelona/es/tema/urbanismo-e-infraestructuras">Urbanismo e infraestructuras</a></li>
+                        <li><a href="/infobarcelona/es/tema/vivienda">Vivienda</a></li>
+                        <li><a href="/infobarcelona/es/tema/zona-de-bajas-emisiones">Zona de bajas emisiones</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="breadcrumb">
+        <ul>
+            <li><a href="#" style="color: #c60c30;">Inicio</a></li>
+            <li><a href="#">Cultura y Tiempo Libre</a></li>
+            <li>Concierto Solidario</li>
+        </ul>
+    </nav>
+
+    <div class="contenido">
+        <h1>Concierto Solidario de la JONC para Projecte Home Catalunya</h1>
+        <strong>El concierto solidario de la Jove Orquestra Nacional de Catalunya (JONC) 
+            vuelve en 2024 el domingo 7 de abril a las 19h en L’Auditori de Barcelona. 
+            Bajo la dirección de Manel Valdivieso, la JONC interpretará un repertorio de 
+            obras maestras, formado por piezas de Strauss, Wagner, Copland y Beethoven, 
+            que representan a los héroes y heroinas cotidianas y anónimas, muy presentes 
+            en nuestro día a día.</strong>
+    </div>
+
+    <iframe src="slider.html" style="border:none"></iframe>
+</div>
+<main>
+    <section class="form-section">
+        <h2>Venta de Entradas</h2>
+        <form action="#" method="get" id="ticketForm" >
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="dni">DNI/NIE:</label>
+                    <input type="text" id="dni" name="dni"  placeholder="Campo Obligatorio" required>                    
+                    <span class="error-message" id="dniError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Campo Obligatorio" required>
+                    <span class="error-message" id="nombreError"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Campo Obligatorio" required>
+                    <span class="error-message" id="apellidoError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="Campo Obligatorio" required>
+                    <span class="error-message" id="correoError"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Campo Obligatorio" required>
+                    <span class="error-message" id="telefonoError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="fecha">Fecha del Concierto:</label>
+                    <select id="fecha" name="fecha" required>
+                        <option value="">Selecciona una fecha</option>
+                        <option value="2024-07-01">1 de Julio, 2024</option>
+                        <option value="2024-07-02">2 de Julio, 2024</option>
+                        <option value="2024-07-03">3 de Julio, 2024</option>
+                    </select>
+                    <span class="error-message" id="fechaError"></span>
+                </div>
+            </div>
+            <div class="form-group full-width">
+                <button type="submit" class="btn">Comprar Entrada</button>
+            </div>
+            <div id="successMessage" class="success-message">Enviado con éxito</div>
+        </form>
+    </section>
+</main>
+<div style="padding: 10%">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<footer>
+    <div class="footer-left">
+        <img src="assets/images/logo.svg" alt="Logo Footer">
+    </div>
+    <div class="footer-links">
+        <a href="https://atencioenlinia.ajuntament.barcelona.cat/fitxa/alta?detail=4492&amp;i=e" target="_blank">Contacta</a>
+        <a href="https://www.barcelona.cat/infobarcelona/es/aviso-legal/" target="_blank">Aviso legal</a>
+        <a href="https://ajuntament.barcelona.cat/declaracio-accessibilitat/es/info-barcelona" target="_blank">Accesibilidad</a>
+    </div>
+    <div class="footer-right">
+        <div id="clock"></div>
+    </div>
+</footer>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
